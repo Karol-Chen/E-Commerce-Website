@@ -35,13 +35,13 @@ public class Product {
     private BigDecimal unitPrice;
 
     @Column(name = "image_url")
-    private String imgUrl;
+    private String imageUrl;
 
     @Column(name = "active")
     private boolean active;
 
     @Column(name = "units_in_stock")
-    private int unitsInStcok;
+    private int unitsInStock;
 
     @Column(name = "date_created")
     @CreationTimestamp
