@@ -1,0 +1,45 @@
+/* copy from style.css -> .au-btn.submit
+    rename as .security-btn
+    change border to 10px
+*/
+.security-btn{
+    position:relative;
+    right:10px;
+    min-width:85px;
+    color:#fff;
+    border:10px solid #205b8d;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:0;
+    background:#205b8d
+}
+
+/* 
+    copy from style.css -> .form-header
+    rename as .login-status-header
+*/
+.login-status-header{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex
+}
+
+/* 
+    copy from style.css -> .au-input
+    rename as .login-status-user-info
+
+*/
+.au-input{
+    line-height:43px;
+    border:1px;
+    padding:0 17px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    -webkit-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease
+}
